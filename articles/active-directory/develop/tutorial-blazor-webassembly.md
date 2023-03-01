@@ -90,7 +90,7 @@ Next, add the following to your project's _.csproj_ file in the **ItemGroup**. T
 
 Then modify the code as specified in the next few steps. These changes will add [access tokens](access-tokens.md) to the outgoing requests sent to the Microsoft Graph API. This pattern is discussed in more detail in [ASP.NET Core Blazor WebAssembly additional security scenarios](/aspnet/core/blazor/security/webassembly/additional-scenarios).
 
-First, create a new file named _GraphAPIAuthorizationMessageHandler.cs_ with the following code. This handler will be user to add an access token for the `User.Read` and `Mail.Read` scopes to outgoing requests to the Microsoft Graph API.
+First, create a new file named _GraphAPIAuthorizationMessageHandler.cs_ with the following code. This handler will be used to add an access token for the `User.Read` and `Mail.Read` scopes to outgoing requests to the Microsoft Graph API.
 
 ```csharp
 using Microsoft.AspNetCore.Components;
